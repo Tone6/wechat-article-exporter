@@ -40,6 +40,6 @@ jobs:
       - name: Deploy to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: wechatdownloader  # 把这里替换成你的项目名
+          project: wechat-downloader  # 把这里替换成你的项目名
           entrypoint: server/index.ts
           root: .output
